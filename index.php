@@ -18,6 +18,7 @@ $posts = SelectAll('posts', ['published' => 1]);
     </div>
 
     <div class="carousel-inner">
+        
         <?php foreach ($posts as $post): ?>
 
 
